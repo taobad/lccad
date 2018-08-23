@@ -45,4 +45,14 @@ cd()
  }
 
 # Set bacjground Color usig base16-manager
-base16-manager set gruvbox-dark-hard 
+base16-manager set gruvbox-dark-hard
+
+#my aliases
+alias ssh_hot_portal_1='ssh btaofeeq@192.168.16.21'
+alias ssh_hot_portal_2='ssh btaofeeq@192.168.16.22'
+alias ssh_hot_api_1='ssh btaofeeq@192.168.16.26'
+alias ssh_hot_api_2='ssh btaofeeq@192.168.16.27'
+alias ssh_dev_portal_1='ssh btaofeeq@192.168.14.102'
+alias ssh_dev_portal_2='ssh btaofeeq@192.168.14.103'
+alias ssh_dev_api_1='ssh btaofeeq@192.168.14.107'
+alias ssh_dev_api_2='ssh btaofeeq@192.168.14.108'
