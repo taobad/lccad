@@ -36,16 +36,7 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-
-#print contents after moving to given directory
-cd()
-{
-    builtin cd $@
-    ls
- }
-
-# Set bacjground Color usig base16-manager
-base16-manager set gruvbox-dark-hard
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 #my aliases
 alias ssh_hot_portal_1='ssh btaofeeq@192.168.16.21'
@@ -56,3 +47,7 @@ alias ssh_dev_portal_1='ssh btaofeeq@192.168.14.102'
 alias ssh_dev_portal_2='ssh btaofeeq@192.168.14.103'
 alias ssh_dev_api_1='ssh btaofeeq@192.168.14.107'
 alias ssh_dev_api_2='ssh btaofeeq@192.168.14.108'
+alias ssh_uat_portal_1='ssh btaofeeq@10.25.0.26'
+alias ssh_uat_portal_2='ssh btaofeeq@10.25.0.27'
+alias ssh_uat_api_1='ssh btaofeeq@10.25.0.21'
+alias ssh_uat_api_2='ssh btaofeeq@10.25.0.22'
