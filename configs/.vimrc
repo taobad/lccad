@@ -1,4 +1,4 @@
-" Basic Setup
+
 set nu
 set ruler
 
@@ -26,3 +26,12 @@ map <leader> md :InstantmarkdownPreview<CR>
 
 " Add fuzzy finder support
 set rtp+=~/.fzf
+
+" NerdTree
+execute "set <A-d>=\ed"
+map <A-d>  :NERDTreeToggle<CR>
+map <S-d>  :NERDTreeFind<cr>
+let NERDTreeQuitOnOpen = 1
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
