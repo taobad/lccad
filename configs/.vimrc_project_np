@@ -1,0 +1,12 @@
+let g:project_use_nerdtree = 1
+source /mnt/c/Users/badmus.taofeeq/.vimrc
+set rtp+=~/.vim/pack/plugins/start/vim-project/
+call project#rc()
+
+Project  '/mnt/c/wamp/www/boarding-api/', 'boarding-api'
+Project  '/mnt/c/wamp/www/cardnet', 'cardnet'
+Project  '/mnt/c/wamp/www/crane', 'crane'
+Project  '/mnt/c/wamp/www/ukgbs', 'ukgbs'
+Project  '/mnt/c/wamp/www/justbe', 'justbe'
+Project  '/mnt/c/wamp/www/developer-centre/', 'developer-centre'
+Project  '/mnt/c/wamp/www/offer-management', 'offer-management'
