@@ -1,0 +1,41 @@
+# SSH Server Access Aliases
+alias shp_1='ssh btaofeeq@192.168.16.21'
+alias shp_2='ssh btaofeeq@192.168.16.22'
+alias sha_1='ssh btaofeeq@192.168.16.26'
+alias sha_2'ssh btaofeeq@192.168.16.27'
+alias sdp_1='ssh btaofeeq@192.168.14.102'
+alias sdp_2='ssh btaofeeq@192.168.14.103'
+alias sda_1='ssh btaofeeq@192.168.14.107'
+alias sda_2='ssh btaofeeq@192.168.14.108'
+alias sup_1='ssh btaofeeq@10.25.0.21'
+alias sup_2='ssh btaofeeq@10.25.0.22'
+alias sua_1='ssh btaofeeq@10.25.0.26'
+alias sua_2='ssh btaofeeq@10.25.0.27'
+
+# Open Projects in Vi Shourtcuts
+alias dtask='vi /mnt/c/Users/badmus.taofeeq/vimwiki/NetPay/April2019.md'
+
+# Delete generated swp files in folder
+xswp () {
+    if [ $# -eq 0 ]; then
+        cd /mnt/c/wamp/www/ 
+    else 
+        cd "$1" 
+    fi
+    rm -i **/*.swp
+}
+
+# Open Projects in Vi Shourtcuts
+alias prospect='cd /mnt/c/wamp/www/boarding-api/ && vi'
+alias justbe='cd /mnt/c/wamp/www/justbe/ && vi'
+alias cardnet='cd /mnt/c/wamp/www/cardnet/ && vi'
+alias oms='cd /mnt/c/wamp/www/offer-management/ && vi'
+alias ukgbs='cd /mnt/c/wamp/www/ukgbs/ && vi'
+
+# CD to Projects' Path
+alias npproject='cd /mnt/c/wamp/www/'
+alias npprospect='cd /mnt/c/wamp/www/boarding-api/'
+alias npjustbe='cd /mnt/c/wamp/www/justbe/'
+alias npcardnet='cd /mnt/c/wamp/www/cardnet/'
+alias npoms='cd /mnt/c/wamp/www/offer-management/'
+alias npukgbs='cd /mnt/c/wamp/www/ukgbs/'
