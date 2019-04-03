@@ -51,3 +51,7 @@ alias ssh_uat_portal_1='ssh btaofeeq@10.25.0.26'
 alias ssh_uat_portal_2='ssh btaofeeq@10.25.0.27'
 alias ssh_uat_api_1='ssh btaofeeq@10.25.0.21'
 alias ssh_uat_api_2='ssh btaofeeq@10.25.0.22'
+alias ssh_iqra_prod='ssh root@178.62.17.67'
+
+# remap esc to caps
+# /usr/bin/setxkbmap -option "caps:swapescape"
